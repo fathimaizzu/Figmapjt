@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import Navbar from './components/Navbar';
-import Vector from './assets/Vector.png'
+import Vector from '../public/assets/vector.png'
 import SecondSec from './components/SecondSec';
 import Card from './components/Card'
 
@@ -9,7 +9,7 @@ import Card from './components/Card'
 function App () {
   return (
     <div>
-      kjhgfd
+    
    
     <div className="w-full h-full BgImg">
       <Navbar/>
@@ -23,7 +23,7 @@ function App () {
       </div>
      <div className="flex justify-center  ">
       <div className="w-[780px] h-[67px] bg-white flex items-center px-[15px] mt-[65px] rounded-md not-optional:">
-         <img src="../src/assets/Frame.png" alt="map" className="size-6 "/>
+         <img src="./assets/Frame.png" alt="map" className="size-6 "/>
          <div className=" w-full flex justify-between">
        <div className='pl-[20px]'> City or Destination</div>
        <div className='border-l-[2px] border-l-[#3D3E48] pl-[8px]'>Date of stay</div>

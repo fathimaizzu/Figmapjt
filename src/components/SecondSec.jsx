@@ -1,11 +1,11 @@
 import React from 'react'
-import Subtract from '../assets/Subtract.png'
+
 function SecondSec() {
     return (
 
         <div className='flex px-[50px]'>
             <div className='w-[50%]'>
-                <img src={Subtract} alt="subtract" className='w-full h-[448px]  mt-[101px] ' />
+                <img src="./assets/Subtract.png" alt="subtract" className='w-full h-[448px]  mt-[101px] ' />
             </div>
 
             <div className='w-[50%] pl-[20px] mt-[99px]' >

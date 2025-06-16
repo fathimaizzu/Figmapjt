@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Navbar from '../components/Navbar';
-import Vector from '../../public/assets/vector.png'
+
 import SecondSec from '../components/SecondSec';
 import Card from '../components/Card'
 import Card2 from '../components/card2';
@@ -34,7 +34,7 @@ function Home () {
        <div className='border-l-[2px] border-l-[#3D3E48] pl-[8px]'>person</div>
       </div>
       <button className="bg-[#43B97F] w-[250px] h-[49px] flex px-[10px] text-white items-center justify-between rounded-md ml-[82px] text-[16px]">Find Trip Now
-      <img src={Vector} alt="vector" className="w-[24px] h-[24px]"/>
+      <img src="./assets/vector.png" className="w-[24px] h-[24px]"/>
       </button>
 </div>
       </div> 
